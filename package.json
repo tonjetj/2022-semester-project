@@ -1,0 +1,30 @@
+{
+  "name": "2022-semester-project",
+  "version": "1.0.0",
+  "description": "Auction website for Noroff semester project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tonjetj/2022-semester-project.git"
+  },
+  "keywords": [
+    "auction",
+    "website",
+    "app",
+    "bootstrap",
+    "scss"
+  ],
+  "author": "Tonje T. Jenssen <tontotjen@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tonjetj/2022-semester-project/issues"
+  },
+  "homepage": "https://github.com/tonjetj/2022-semester-project#readme",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "sass": "^1.56.2"
+  }
+}
