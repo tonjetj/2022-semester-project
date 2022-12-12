@@ -31,7 +31,7 @@ $grays: (
 // scss-docs-start color-variables
 $blue:    #98FFE1;
 $indigo:  #6610f2;
-$purple:  #6f42c1;
+$purple:  #B78DFF;
 $pink:    #d63384;
 $red:     #dc3545;
 $orange:  #fd7e14;
@@ -75,7 +75,8 @@ $input-placeholder-color:               $light;
 // Body
 //
 // Settings for the `<body>` element.
-
 $body-bg:            $black;
 
-$border-color:       $gray-800;
+// Style anchor elements.
+$link-color:                              $white;
+$link-hover-color:                        shift-color($purple);
