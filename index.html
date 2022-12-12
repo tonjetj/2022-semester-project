@@ -13,10 +13,14 @@
   </head>
   <body>
     <header
-      class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow"
+      class="navbar navbar-dark sticky-top bg-black flex-md-nowrap p-0 shadow"
     >
-      <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3 fs-6" href="#"
-        ><img src="findings_logo.png"
+      <a class="navbar-brand col-md-3 col-lg-2 my-1 px-3" href="#"
+        ><img
+          src="./images/findings_logo.png"
+          class="img-fluid"
+          id="logo"
+          alt="Logo"
       /></a>
       <button
         class="navbar-toggler position-absolute d-md-none collapsed"
@@ -29,19 +33,68 @@
       >
         <span class="navbar-toggler-icon"></span>
       </button>
-      <input
-        class="form-control form-control-dark w-100 rounded-0 border-0"
+      <input id="search-input"
+        class="form-control text-white bg-dark w-100 border-0 rounded-5"
         type="text"
-        placeholder="Search"
+        placeholder="Find a unique NFT"
         aria-label="Search"
       />
       <div class="navbar-nav">
         <div class="nav-item text-nowrap">
-          <a class="nav-link px-3" href="#">Sign out</a>
+          <a class="nav-link px-3" href="#">Register</a>
         </div>
       </div>
     </header>
-    <aside></aside>
+
+    <aside
+      class="d-flex flex-column flex-shrink-0 p-3 text-bg-dark"
+      style="width: 280px"
+    >
+
+      <ul class="nav nav-pills flex-column mb-auto">
+        <li class="nav-item">
+          <a href="#" class="nav-link active" aria-current="page">
+            <svg class="bi pe-none me-2" width="16" height="16">
+              <use xlink:href="#home"></use>
+            </svg>
+            Home
+          </a>
+        </li>
+        <li>
+          <a href="#" class="nav-link text-white">
+            <svg class="bi pe-none me-2" width="16" height="16">
+              <use xlink:href="#speedometer2"></use>
+            </svg>
+            Dashboard
+          </a>
+        </li>
+        <li>
+          <a href="#" class="nav-link text-white">
+            <svg class="bi pe-none me-2" width="16" height="16">
+              <use xlink:href="#table"></use>
+            </svg>
+            Orders
+          </a>
+        </li>
+        <li>
+          <a href="#" class="nav-link text-white">
+            <svg class="bi pe-none me-2" width="16" height="16">
+              <use xlink:href="#grid"></use>
+            </svg>
+            Products
+          </a>
+        </li>
+        <li>
+          <a href="#" class="nav-link text-white">
+            <svg class="bi pe-none me-2" width="16" height="16">
+              <use xlink:href="#people-circle"></use>
+            </svg>
+            Customers
+          </a>
+        </li>
+      </ul>
+      </div>
+    </aside>
     <h1>December</h1>
 
     <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
