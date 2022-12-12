@@ -5,10 +5,10 @@ $gray-200: #e9ecef;
 $gray-300: #dee2e6;
 $gray-400: #ced4da;
 $gray-500: #adb5bd;
-$gray-600: #6c757d;
+$gray-600: #27293357;
 $gray-700: #495057;
-$gray-800: #343a40;
-$gray-900: #212529;
+$gray-800: #27293379;
+$gray-900: #141217;
 $black:    #000;
 // scss-docs-end gray-color-variables
 
@@ -58,3 +58,15 @@ $colors: (
   "gray":       $gray-600,
   "gray-dark":  $gray-800
 );
+
+// scss-docs-start theme-color-variables
+$primary:       $blue;
+$secondary:     $gray-800;
+$success:       $green;
+$info:          $cyan;
+$warning:       $yellow;
+$danger:        $red;
+$light:         $white;
+$dark:          $gray-900;
+
+$input-placeholder-color:               $light;
