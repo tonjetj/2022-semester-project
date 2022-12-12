@@ -29,7 +29,7 @@ $grays: (
 // fusv-enable
 
 // scss-docs-start color-variables
-$blue:    #0d6efd;
+$blue:    #98FFE1;
 $indigo:  #6610f2;
 $purple:  #6f42c1;
 $pink:    #d63384;
@@ -70,3 +70,12 @@ $light:         $white;
 $dark:          $gray-900;
 
 $input-placeholder-color:               $light;
+
+
+// Body
+//
+// Settings for the `<body>` element.
+
+$body-bg:            $black;
+
+$border-color:       $gray-800;
