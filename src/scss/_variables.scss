@@ -1,7 +1,7 @@
 // scss-docs-start gray-color-variables
 $white:    #fff;
 $gray-100: #f8f9fa;
-$gray-200: #e9ecef;
+$gray-200: #B78DFF;
 $gray-300: #dee2e6;
 $gray-400: #ced4da;
 $gray-500: #adb5bd;
@@ -29,7 +29,7 @@ $grays: (
 // fusv-enable
 
 // scss-docs-start color-variables
-$blue:    #98FFE1;
+$blue:    #B78DFF;
 $indigo:  #6610f2;
 $purple:  #B78DFF;
 $pink:    #d63384;
@@ -63,13 +63,13 @@ $colors: (
 $primary:       $blue;
 $secondary:     $gray-800;
 $success:       $green;
-$info:          $cyan;
+$info:          $purple;
 $warning:       $yellow;
 $danger:        $red;
 $light:         $white;
 $dark:          $gray-900;
 
-$input-placeholder-color:               $light;
+$input-placeholder-color:   $gray-500;
 
 
 // Body
@@ -78,5 +78,13 @@ $input-placeholder-color:               $light;
 $body-bg:            $black;
 
 // Style anchor elements.
-$link-color:                              $white;
-$link-hover-color:                        shift-color($purple);
+
+$link-color:                              $gray-500;
+$link-hover-color:                        $gray-200;
+
+
+$component-active-color:            $gray-200;
+$nav-tabs-link-active-color:        $gray-200;
+$nav-tabs-link-active-bg:           $body-bg;
+
+$dropdown-link-active-color:        $component-active-color;
