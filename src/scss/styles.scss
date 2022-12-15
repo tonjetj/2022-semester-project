@@ -1,5 +1,8 @@
 // Bootstrap variable overrides
 @import "variables";
 
+// Original styles 
+@import "./components/header";
+
 // Bootstrap styles
 @import "../../node_modules/bootstrap/scss/bootstrap";
