@@ -28,10 +28,6 @@
 #nft3 {
   background-image: url("https://images.unsplash.com/photo-1633287453185-6c497fd6f099?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80"); }
 
-.card:hover {
-  transform: scale(1.1);
-  transition: ease 0.3s; }
-
 /*!
  * Bootstrap  v5.2.3 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
