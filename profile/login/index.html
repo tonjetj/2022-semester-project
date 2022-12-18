@@ -16,9 +16,9 @@
     ></script>
     <script src="../../src/js/index.mjs" defer type="module"></script>
   </head>
-  <body>
-    <header class="sticky-top">
-      <nav class="navbar navbar-expand-md navbar-dark bg-black px-2 mt-2">
+  <body id="registerBackground">
+    <header class="sticky-top mb-5">
+      <nav class="navbar navbar-expand-md navbar-dark bg-black px-2">
         <div class="container-fluid">
           <div class="col-md-3 col-lg-2 d-md-block">
             <a class="navbar-brand me-auto mx-2" href="../../index.html"
@@ -52,8 +52,9 @@
                 <path
                   fill-rule="evenodd"
                   d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
-                /></svg
-            ></span>
+                />
+              </svg>
+            </span>
           </button>
 
           <div class="collapse navbar-collapse" id="sidebarMenu">
@@ -101,10 +102,44 @@
       </nav>
     </header>
 
-    <main class="container-fluid bg-black mt-2"></main>
+    <main class="d-flex py-5">
+      <div class="card border-0 bg-dark m-auto rounded-5 mt-lg mt-sm">
+        <div class="card-body form-signin px-5">
+          <form class="py-5" id="loginForm">
+            <h1 class="h3 mb-3 fs-1 fw-light text-white text-center">Login</h1>
 
+            <div class="form-group pt-5">
+              <label for="" class="fw-light text-light">Email address *</label>
+              <input
+                type="email"
+                name="email"
+                required
+                pattern="^[\w\-.]+@(stud.)?noroff.no$"
+                title="Your email must end with @stud.noroff.no to be able to register"
+                class="form-control mb-2 bg-white rounded-2 border-0 p-2"
+                placeholder="name@stud.noroff.no"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="" class="fw-light text-light">Password *</label>
+              <input
+                type="password"
+                name="password"
+                required
+                minlength="8"
+                class="form-control mb-2 bg-white rounded-2 border-0 p-2"
+                placeholder="********"
+              />
+            </div>
+
+            <button class="w-100 btn btn-md btn-primary my-4" type="submit">
+              Login
+            </button>
+          </form>
+        </div>
+      </div>
+    </main>
     <footer></footer>
-
-    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

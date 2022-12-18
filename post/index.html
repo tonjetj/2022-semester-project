@@ -8,20 +8,20 @@
       content="The site to find unique NFTs on auction."
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Findings | Edit profile</title>
-    <link rel="stylesheet" href="../../dist/css/styles.css" />
+    <title>Findings</title>
+    <link rel="stylesheet" href="../dist/css/styles.css" />
     <script
-      src="../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+      src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
       defer
     ></script>
-    <script src="../../src/js/index.mjs" defer type="module"></script>
+    <script src="../src/js/index.mjs" defer type="module"></script>
   </head>
   <body>
     <header class="sticky-top mb-5 me-auto">
       <nav class="navbar navbar-expand-md navbar-dark bg-black px-2 mt-2">
         <div class="container-fluid">
           <div class="col-md-3 col-lg-2 d-md-block">
-            <a class="navbar-brand me-auto mx-2" href="/profile/"
+            <a class="navbar-brand me-auto mx-2" href="./"
               ><img
                 src="../../images/findings_logo_v2.png"
                 width="125"
@@ -140,47 +140,9 @@
         </div>
       </nav>
     </header>
-    <main class="d-flex py-5">
-      <div class="card border-0 bg-dark m-auto rounded-5 mt-lg mt-sm">
-        <div class="card-body form-signin px-5">
-          <form class="py-5" id="editProfile" method="post">
-            <h1 class="h3 mb-3 fs-1 fw-light text-white text-center">
-              Edit your profile
-            </h1>
 
-            <div class="form-group pt-5">
-              <label for="" class="fw-light text-light">Your name</label>
-              <input
-                type="name"
-                name="name"
-                class="form-control mb-2 bg-white rounded-2 border-0 p-2"
-              />
-            </div>
-
-            <div class="form-group">
-              <label for="" class="fw-light text-light">Your Email</label>
-              <input
-                type="email"
-                name="email"
-                class="form-control mb-2 bg-white rounded-2 border-0 p-2"
-              />
-            </div>
-
-            <div class="form-group mb-3">
-              <label for="" class="fw-light text-light">Avatar</label>
-              <input
-                class="form-control mb-2 bg-white rounded-2 border-0 p-2"
-                type="url"
-                name="avatar"
-              />
-            </div>
-
-            <button class="w-100 btn btn-md btn-primary my-4" type="submit">
-              Save changes
-            </button>
-          </form>
-        </div>
-      </div>
+    <main class="container-fluid bg-black mt-2">
+      <div class="container-fluid" id="post"></div>
     </main>
     <footer></footer>
   </body>
