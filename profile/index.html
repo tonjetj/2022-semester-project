@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="The site to find unique NFTs on auction."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Findings</title>
+    <link rel="stylesheet" href="../../dist/css/styles.css" />
+    <script
+      src="../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+      defer
+    ></script>
+    <script src="../../src/js/index.mjs" defer type="module"></script>
+  </head>
+  <body>
+    <header class="sticky-top mb-5 me-auto">
+      <nav class="navbar navbar-expand-md navbar-dark bg-black px-2 mt-2">
+        <div class="container-fluid">
+          <div class="col-md-3 col-lg-2 d-md-block">
+            <a class="navbar-brand me-auto mx-2" href="./"
+              ><img
+                src="../../images/findings_logo_v2.png"
+                width="125"
+                class="img-fluid"
+                alt="logo"
+                id="logo"
+            /></a>
+          </div>
+
+          <button
+            class="navbar-toggler border-0"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#sidebarMenu"
+            aria-controls="sidebarMenu"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="30"
+                height="30"
+                fill="currentColor"
+                class="bi bi-list text-info"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+                />
+              </svg>
+            </span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="sidebarMenu">
+            <form class="d-flex container-fluid" role="search">
+              <input
+                class="form-control text-white bg-dark border-0 rounded-5 my-3"
+                type="search"
+                placeholder="Search for a unique NFT"
+                aria-label="Search"
+              />
+              <button class="btn text-primary rounded-0" type="submit">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-search mb-1"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
+                  />
+                </svg>
+              </button>
+            </form>
+            <div class="d-inline-flex">
+              <div class="dropdown ms-sm-auto">
+                <ul
+                  class="dropdown-menu dropdown-menu-dark dropdown-menu-lg-end dropdown-menu-sm-end fs-6 shadow mt-3"
+                >
+                  <li><a class="dropdown-item" href="#">New project...</a></li>
+                  <li><a class="dropdown-item" href="#">Settings</a></li>
+                  <li><a class="dropdown-item" href="#">Profile</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="../">Sign out</a>
+                  </li>
+                </ul>
+                <a
+                  href="#"
+                  class="d-flex align-items-center text-white text-decoration-none dropdown-toggle"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <img
+                    src="https://github.com/mdo.png"
+                    alt=""
+                    class="rounded-circle me-2"
+                    width="32"
+                    height="32"
+                  />
+                </a>
+              </div>
+              <div class="mx-2 mt-2 text-info">
+                <p class="d-flex fs-sm">
+                  1000<svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="10"
+                    height="10"
+                    fill="currentColor"
+                    class="bi bi-coin"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M5.5 9.511c.076.954.83 1.697 2.182 1.785V12h.6v-.709c1.4-.098 2.218-.846 2.218-1.932 0-.987-.626-1.496-1.745-1.76l-.473-.112V5.57c.6.068.982.396 1.074.85h1.052c-.076-.919-.864-1.638-2.126-1.716V4h-.6v.719c-1.195.117-2.01.836-2.01 1.853 0 .9.606 1.472 1.613 1.707l.397.098v2.034c-.615-.093-1.022-.43-1.114-.9H5.5zm2.177-2.166c-.59-.137-.91-.416-.91-.836 0-.47.345-.822.915-.925v1.76h-.005zm.692 1.193c.717.166 1.048.435 1.048.91 0 .542-.412.914-1.135.982V8.518l.087.02z"
+                    />
+                    <path
+                      d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"
+                    />
+                    <path
+                      d="M8 13.5a5.5 5.5 0 1 1 0-11 5.5 5.5 0 0 1 0 11zm0 .5A6 6 0 1 0 8 2a6 6 0 0 0 0 12z"
+                    />
+                  </svg>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <footer></footer>
+  </body>
+</html>
