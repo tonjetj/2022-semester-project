@@ -101,6 +101,7 @@ Thank you for considering contributing to this project!
 
 ## Contact
 
-This is where you can leave your social links for people to contact you, such as a LinkedIn profile or Twitter link e.g.
+You can reach out to me through the following channels:
+[www.linkedin.com](https://www.linkedin.com/in/tonje-totland-jenssen-1b6209a4/)
+I would be happy to answer any questions or discuss any feedback you may have regarding the project.
 
-[My LinkedIn page]([www.linkedin.com](https://www.linkedin.com/in/tonje-totland-jenssen-1b6209a4/))
