@@ -15,7 +15,7 @@ Key Features:
 
 ## Built With
 
-You can list a the tech stack that you've used over here
+Findings is built using the following technologies:
 
 - [SASS]([https://reactjs.org/](https://sass-lang.com/guide))
 - [Bootstrap](https://getbootstrap.com)
